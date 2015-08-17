@@ -1,0 +1,5 @@
+<% node['nslcd']['default'].each do |key, value| -%>
+    <% unless value.empty? -%>
+        <%= key %>=<%= value %>
+    <% end %>
+<% end %>
