@@ -1,4 +1,4 @@
-# based on Ubuntu 14.04
+# based on CentOS 7
 default[:nslcd][:default][:uid]='nslcd'
 default[:nslcd][:default][:gid]='ldap'
 default[:nslcd][:default][:uri]='ldap://your.ldap.server/'

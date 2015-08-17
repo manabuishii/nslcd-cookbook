@@ -4,4 +4,4 @@ Setup /etc/nslcd.conf .
 
 # Memo
 
-This cookbook is based on ubuntu 14.04.
+This cookbook is based on CentOS 7.
