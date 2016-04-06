@@ -1,4 +1,8 @@
 #
+if node[:nslcd][:installpackages]
+  package "nslcd"
+end
+
 service "nslcd" do
   action [ :enable ]
   supports :start => true, :status => true, :restart => true, :reload => true
