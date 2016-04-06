@@ -1,4 +1,4 @@
-name "nslcd-cookbook"
-version "0.2.0"
+name "nslcd"
+version "1.0.0"
 license 'Apache v2.0'
 maintainer 'Manabu ISHII'
